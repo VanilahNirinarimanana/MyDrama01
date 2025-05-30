@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyVanideo - Media Player</title>
+    <link rel="stylesheet" href="./Assets/Css/index.css">
+    <link rel="stylesheet" href="Assets/Css/font-awesome/css/all.css">
+    <link rel="stylesheet" href="./Assets/Css/Media_Player.css">
+    <link rel="shortcut icon" href="./Assets/Images/MV.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./Assets/Images/mylogo1.png" alt="MyVanideo-logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="listes.html">Listes des vidéos</a>
+            <a href="Media_Player.html">Média player</a>
+        </div>
+
+        <form class="search-container" action="listes.html">
+            <input type="text" name="recherche" placeholder="Recherche" autofocus>
+            <button class="btn-submit" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+
+        <button class="nav-button">
+          <i class="fa fa-bars"></i>
+          <div class="nav-links-dropdown">
+            <a href="index.html" class="accueil">Accueil</a>
+            <a href="listes.html">Listes des vidéos</a>
+            <a href="Media_Player.html">Média player</a>
+            <a href="connexion.html" class="btn bouton1">Se connecter</a>
+            <a href="inscription.html" class="btn bouton2">S'inscrire</a>
+        </div>
+      </button>
+        
+        <div class="auth-container">
+            <a href="connexion.html" class="btn bouton1">Se connecter</a>
+            <a href="inscription.html" class="btn bouton2">S'inscrire</a>
+        </div>
+    </nav>
+
+<section class="section_video">
+    <div class="video">
+        <h2>PARASITE : The Grey (2024)</h2>
+        <h2>Episode 1</h2>
+        <video width="100%" height="auto" controls poster="./Assets/Images/Postervideo.jpg">
+            <source src="./Assets/Videos/video.mp4" type="video/mp4">
+        </video>
+        <div class="episode">
+            <a href="">Episode suivant</a>
+        </div>
+    </div>
+   
+</section>
+<footer>
+    <div class="part-one">
+      <div class="blabla">
+        <h1>Parlez nous</h1>
+        <span class="padding_kely">
+          Plongez dans le monde captivant du cinéma coréen dès aujourd'hui !
+        </span>
+        <span class="padding_kely">
+          Découvrez une sélection exceptionnelle de films coréens en streaming.
+        </span> 
+        <span class="padding_kely">
+          Vivez l'émotion du cinéma coréen où que vous soyez, quand vous le voulez.
+        </span>
+        <p>Envoyer nous vos recommendations, vos souhaits et vos commentaires; <br> contactez nous!!</p>  
+      </div>
+      <div class="Contact">
+       <div class="contact-title">
+        <span>Email <i class="fa fa-envelope"></i></span>
+        <span>Contact <i class="fa fa-phone"></i></span>
+        <span>Adresse <i class="fa fa-address-card"></i></span>
+       </div>
+        <div class="contact-know">
+          <span>MyVanideo07@gmail.com</span>
+          <span>(+33) 64 20 02 20 45</span>
+          <div class="padding">
+          <span class="padding_kely1">1 paya vesta link</span>
+          <span class="padding_kely1"> #12 07, paya vesta city </span>
+          <span class="padding_kely1">Singapore, 21000525</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="socialmedia">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-tiktok"></i>
+    </div>
+  </footer>
+</body>
+</html>

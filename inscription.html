@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyVanideo - Inscription</title>
+    <link rel="stylesheet" href="./Assets/Css/index.css">
+    <link rel="stylesheet" href="Assets/Css/font-awesome/css/all.css">
+    <link rel="stylesheet" href="./Assets/Css/inscription.css">
+    <link rel="shortcut icon" href="./Assets/Images/MV.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./Assets/Images/mylogo1.png" alt="MyVanideo-logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="listes.html">Listes des vidéos</a>
+            <a href="Media_Player.html">Média player</a>
+        </div>
+
+        <form class="search-container" action="listes.html">
+            <input type="text" name="recherche" placeholder="Recherche" autofocus>
+            <button class="btn-submit" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+
+        <button class="nav-button">
+            <i class="fa fa-bars"></i>
+            <div class="nav-links-dropdown">
+              <a href="index.html" class="accueil">Accueil</a>
+              <a href="listes.html">Listes des vidéos</a>
+              <a href="Media_Player.html">Média player</a>
+              <a href="connexion.html" class="btn bouton1">Se connecter</a>
+              <a href="inscription.html" class="btn bouton2">S'inscrire</a>
+          </div>
+        </button>
+        
+        <div class="auth-container">
+            <a href="connexion.html" class="btn bouton1">Se connecter</a>
+            <a href="inscription.html" class="btn bouton2">S'inscrire</a>
+        </div>
+    </nav>
+
+    
+        <div class="inscri-container">
+            <div class="inscri1">
+                <p>Inscrivez vous pour plus de fun sur notre site.</p>
+            </div>
+
+            <form method="post" action="" class="inscri">
+
+                <fieldset id="field1">
+                    <legend>Informations personnelles :</legend>
+                    <label for="nom"><b>Entrez votre nom :</b></label><br>
+                    <input type="text" name="nom" id="nom" autofocus><br><br>
+                    <label for="prenom"><b>Entrez votre(s) prénom(s) :</b></label><br>
+                    <input type="text" name="prenom" id="prenom"><br><br>
+                    <label for="email"><b>Entrez votre Adresse Email :</b></label><br>
+                    <input type="email" name="email" id="email"><br><br>
+                    <label for="pass"><b>Entrer votre mot de passe :</b></label><br>
+                    <input type="password" name="pass" id="pass"><br><br>
+                    <label for="val"><b>Valider votre mot de passe :</b></label><br>
+                    <input type="password" name="val" id="val"><br><br>
+                </fieldset>
+                <fieldset id="field2">
+                    <legend>Informations supplementaires</legend>
+                    <label for="dramafav"><b>Quel est votre drama favorie ?</b></label><br><br>
+                    <input type="text" name="dramafav" id="dramafav"><br><br>
+                    <label for="acteurs"><b>Qui sont vos acteurs/actrices préférés(ées) ?</b></label><br><br>
+                    <textarea name="acteurs" id="acteurs" cols="20" rows="4"></textarea><br><br>
+                    <label for="prez"><b>Parlez de votre passion pour la culture coréenne.</b></label><br><br>
+                    <textarea name="prez" id="prez" cols="30" rows="5"></textarea>
+
+                </fieldset>
+
+                <div class="send">
+                    <input type="submit" value="Envoyer" class="vani">
+                </div>
+                <p class="have_account">Vous avez déjà un compte ? <a href="connexion.html">Connectez vous!</a></p>
+            </form>
+        </div>
+       
+</body>
+</html>

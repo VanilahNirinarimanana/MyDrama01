@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyVanideo - Accueil</title>
+    <link rel="stylesheet" href="./Assets/Css/index.css" />
+    <link rel="stylesheet" href="Assets/Css/font-awesome/css/all.css">
+    <link rel="shortcut icon" href="./Assets/Images/MV.jpg" type="image/x-icon">
+  </head>
+
+  <body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="./Assets/Images/mylogo1.png" alt="MyVanideo-logo">
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html" class="accueil">Accueil</a>
+            <a href="listes.html">Listes des vidéos</a>
+            <a href="Media_Player.html">Média player</a>
+        </div>
+
+        <form class="search-container" action="listes.html">
+            <input type="text" name="recherche" placeholder="Recherche" autofocus>
+            <button class="btn-submit" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+
+        <button class="nav-button">
+            <i class="fa fa-bars"></i>
+            <div class="nav-links-dropdown">
+              <a href="index.html" class="accueil">Accueil</a>
+              <a href="listes.html">Listes des vidéos</a>
+              <a href="Media_Player.html">Média player</a>
+              <a href="connexion.html" class="btn bouton1">Se connecter</a>
+              <a href="inscription.html" class="btn bouton2">S'inscrire</a>
+          </div>
+        </button>
+        
+        <div class="auth-container">
+            <a href="connexion.html" class="btn bouton1">Se connecter</a>
+            <a href="inscription.html" class="btn bouton2">S'inscrire</a>
+        </div>
+    </nav>
+
+    <section class="section1">
+      <video autoplay muted loop id="videoback">
+        <source src="./Assets/Videos/video.mp4" type="video/mp4">
+      </video>
+      <div class="div1">
+        <h2>MyVanideo</h2>
+        <li>
+          Le site offre aux dramavores l'opportunité de regarder leur
+          Drama Coréen en ligne.
+        </li>
+        <li> Une éxperience unique dans l'univers de votre passion; plongez
+        dans un monde apart.
+       </li>
+       <li>
+        Tous les Dramas Coréen que vous recherchez sont disponibles sur
+        le site; vos favories,<br> les nouveautés et même ceux d'il y a dix
+        ans.
+       </li>
+       <li>
+        De A à Z, recherchez et regarder gratuitement!!
+       </li>
+      </div>
+
+      <form action="Media_Player.html" class="container-watch">
+       <p>Regarder maintenant</p>
+       <button class="sec1">
+        <i class="fa fa-play"></i>
+       </button>
+      </form>
+    </section>
+
+    <section class="section2">
+      <h1>Les plus populaires </h1>
+      <div class="galery-list">
+        <div class="gallery">
+          <a target="_blank" href="Media_Player.html">
+            <img
+              src="./Assets/Images/image_gallery/Revenge.jpg"
+              alt="revenge"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="about-drama">
+            Revenge of Others <span>2023</span> 
+          </div>
+          <div class="icon-kitana">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="Media_Player.html">
+            <img
+              src="./Assets/Images/image_gallery/Cheat On Me If You Can.jpg"
+              alt="Cheat On Me If You Can"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="about-drama">
+            Cheat On Me <span>2020</span>
+          </div>
+          <div class="icon-kitana">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="Media_Player.html">
+            <img
+              src="./Assets/Images/image_gallery/vincenzo.jpg"
+              alt="vincezo"
+              width="600"
+              height="410"
+            />
+          </a>
+          <div class="about-drama">
+            Vincezo <span>2021</span>
+          </div>
+          <div class="icon-kitana">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="Media_Player.html">
+            <img
+              src="./Assets/Images/image_gallery/TRUE BEAUTY.jpg"
+              alt="true beauty"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="about-drama">
+            True Beauty <span>2021</span>
+          </div>
+          <div class="icon-kitana">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="Media_Player.html">
+              <img
+                src="./Assets/Images/image_gallery/love_alarm.jpg"
+                alt="love alarm"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="about-drama">
+              Love Alarm <span>2019</span>
+            </div>
+            <div class="icon-kitana">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="Media_Player.html">
+              <img
+                src="./Assets/Images/image_gallery/Doom At Your Service.jpg"
+                alt="Doom at your Service"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="about-drama">
+              Doom/your Service <span>2021</span>
+            </div>
+            <div class="icon-kitana">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="Media_Player.html">
+              <img
+                src="./Assets/Images/image_gallery/Mr_ Queen.jpg"
+                alt="mr queen"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="about-drama">
+              Mr Queen <span>2020</span>
+            </div>
+            <div class="icon-kitana">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="Media_Player.html">
+              <img
+                src="./Assets/Images/image_gallery/Queen Of The Ring.jpg"
+                alt="Queen of the ring"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="about-drama">
+              Queen of the Ring <span>2017</span>
+            </div>
+            <div class="icon-kitana">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="Media_Player.html">
+              <img
+                src="./Assets/Images/image_gallery/See You in My 19th Life.jpg"
+                alt="See you in my 19th life"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="about-drama">
+              See you/19th life <span>2023</span>
+            </div>
+            <div class="icon-kitana">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="Media_Player.html">
+              <img
+                src="./Assets/Images/image_gallery/2521.jpg"
+                alt="2521"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="about-drama">
+              Parasite: The Grey <span>2024</span>
+            </div>
+            <div class="icon-kitana">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+      </div>
+      <div class="more">
+        <a href="listes.html">Voir plus</a>
+      </div>
+    </section>
+    <section class="section3">
+      <h1>Recomendatation pour vous</h1>
+      <div class="myname-container">
+        <div class="poster-myname">
+            <img src="./Assets/Images/myname.jpg" alt="My name">
+        </div>
+        <div class="synopsis">
+            <h2>MY NAME</h2>
+              <div class="decrire">
+                <p> <b>Synopsis :</b></p> 
+                "My Name" est une série sud-coréenne qui suit Yoon Ji-Woo,
+                une femme qui se retrouve impliquée dans une guerre des gangs 
+                alors qu'elle tente de découvrir la vérité sur la mort de son père. 
+                Se faisant passer pour une membre d'un gang rival, elle cherche à 
+                se venger de ceux qui ont détruit sa famille. 
+                Au fur et à mesure que Ji-Woo se plonge dans ce monde dangereux, 
+                elle doit jongler avec des alliances complexes et des secrets 
+                mortels pour protéger ses proches tout en poursuivant son objectif 
+                de vengeance. Avec une intrigue remplie de rebondissements, 
+                de trahisons et de suspense, 
+                "My Name" explore les thèmes de la justice, de la loyauté 
+                et de la rédemption dans un contexte de crime organisé impitoyable.
+              </div>  
+              <p><b>Réseau d'origine :</b> Netflix</p>
+              <p><b>Directeur :</b> Kim Jin Min</p>
+              <p><b>Pays :</b> Corée</p>
+              <p><b>Status :</b> Terminé</p>
+              <p><b>Sortie :</b> 2021</p>
+              <p><b>Genre :</b> Action, Crime, Detective, Gangster, Meurtre, Revenge, Romance</p>
+            </div>
+        </div>
+        <h2>Les acteurs principaux</h2>
+        <div class="acteur"> 
+            <div class="gallery-acteur">
+                <img
+                  src="./Assets/Images/Acteur-myname/acteur1.jpg"
+                  alt="han so hee"
+                />
+              <div class="nom-acteur">
+                Han So-hee as Yoon Ji-Woo
+              </div>
+            </div>
+            <div class="gallery-acteur">
+                <img
+                  src="./Assets/Images/Acteur-myname/aacteur2.jpg"
+                  alt="acteur2"
+                />
+              <div class="nom-acteur">
+                Ahn Bo-hyun  as Jeon Pil-do
+              </div>
+            </div>
+            <div class="gallery-acteur">
+                <img
+                  src="./Assets/Images/Acteur-myname/acteur3.jpg"
+                  alt="acteur3"
+                />
+              <div class="nom-acteur">
+                Jang Yul as Do Gang-jae
+              </div>
+            </div>
+            <div class="gallery-acteur">
+                <img
+                  src="./Assets/Images/Acteur-myname/acteur4.jpg"
+                  alt="acteur4"
+                />
+              <div class="nom-acteur">
+                Park Hee-soon as Choi Moo-jin
+              </div>
+            </div>
+            <div class="gallery-acteur">
+                <img
+                  src="./Assets/Images/Acteur-myname/acteur5.jpg"
+                  alt="acteur5"
+                />
+              <div class="nom-acteur">
+                Les castes de MY NAME
+              </div>
+            </div>
+      </div>
+
+      <form action="Media_Player.html" class="container-watch">
+        <p></p>
+        <button class="sec1">
+         <i class="fa fa-arrow-right"> Regarder</i>
+        </button>
+       </form>
+    </section>
+
+    <footer>
+      <div class="part-one">
+        <div class="blabla">
+          <h1>Parlez nous</h1>
+          <span class="padding_kely">
+            Plongez dans le monde captivant du cinéma coréen dès aujourd'hui !
+          </span>
+          <span class="padding_kely">
+            Découvrez une sélection exceptionnelle de films coréens en streaming.
+          </span> 
+          <span class="padding_kely">
+            Vivez l'émotion du cinéma coréen où que vous soyez, quand vous le voulez.
+          </span>
+          <p>Envoyer nous vos recommendations, vos souhaits et vos commentaires; <br> contactez nous!!</p>  
+        </div>
+        <div class="Contact">
+         <div class="contact-title">
+          <span>Email <i class="fa fa-envelope"></i></span>
+          <span>Contact <i class="fa fa-phone"></i></span>
+          <span>Adresse <i class="fa fa-address-card"></i></span>
+         </div>
+          <div class="contact-know">
+            <span>MyVanideo07@gmail.com</span>
+            <span>(+33) 64 20 02 20 45</span>
+            <div class="padding">
+            <span class="padding_kely1">1 paya vesta link</span>
+            <span class="padding_kely1"> #12 07, paya vesta city </span>
+            <span class="padding_kely1">Singapore, 21000525</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="socialmedia">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-tiktok"></i>
+      </div>
+    </footer>
+  </body>
+</html>

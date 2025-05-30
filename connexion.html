@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyVanideo - Connexion</title>
+    <link rel="stylesheet" href="./Assets/Css/index.css">
+    <link rel="stylesheet" href="./Assets/Css/connexion.css">
+    <link rel="stylesheet" href="Assets/Css/font-awesome/css/all.css">
+    <link rel="shortcut icon" href="./Assets/Images/MV.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./Assets/Images/mylogo1.png" alt="MyVanideo-logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="listes.html">Listes des vidéos</a>
+            <a href="Media_Player.html">Média player</a>
+        </div>
+
+        <form class="search-container" action="listes.html">
+            <input type="text" name="recherche" placeholder="Recherche" autofocus>
+            <button class="btn-submit" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+
+        <button class="nav-button">
+          <i class="fa fa-bars"></i>
+          <div class="nav-links-dropdown">
+            <a href="index.html" class="accueil">Accueil</a>
+            <a href="listes.html">Listes des vidéos</a>
+            <a href="Media_Player.html">Média player</a>
+            <a href="connexion.html" class="btn bouton1">Se connecter</a>
+            <a href="inscription.html" class="btn bouton2">S'inscrire</a>
+        </div>
+      </button>
+
+        <div class="auth-container">
+            <a href="connexion.html" class="btn bouton1">Se connecter</a>
+            <a href="inscription.html" class="btn bouton2">S'inscrire</a>
+        </div>
+    </nav>
+
+
+    <div class="myform">
+
+      <div class="container">
+        <h2 class="title">Connectez vous avec votre compte MyVanideo</h2>
+
+        <form method="post" action="" class="connex">
+            <div class="input-container">
+
+                <label for="nom"> <b> Nom :</b></label>
+                <input type="text" name="nom" id="nom" autofocus><br><br>
+
+                <label for="prenom"><b> Prénom(s) :</b></label>
+                <input type="text" name="prenom" id="prenom"><br><br>
+
+                <label for="email"><b> Adresse Email :</b></label>
+                <input type="email" name="email" id="email"><br><br>
+
+                <label for="pass"><b> Mot de passe :</b></label>
+                <input type="password" name="pass" id="pass"><br><br>
+
+                <a href="#" class="forgot-password" ><b>Mot de passe oublié ?</b></a>
+            </div>
+
+                <input type="submit" value="Se connecter" class="form-submit">
+                <p class="add-account">Vous n'avez pas de compte? <a href="inscription.html">Crée en un!</a></p>
+                
+        </form>
+      </div>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,126 @@
+
+*{
+    box-sizing: border-box;
+}
+
+/*CONTIENT TOUS LA PAGE D'INSCRIPTION*/
+.inscri-container{
+    background-image: url("../Images/inscri.jpg");
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*PETITE PHRASE*/
+.inscri1 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(247, 249, 247);
+}
+
+/*CONTIENT LE FORMULAIRE D'INSCRIPTION*/
+.inscri{
+    margin: 40px 20%;
+    padding: 15px 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
+    width: auto;
+}
+
+fieldset{ /* LES PARTIES DU FORMULAIRE*/
+    border: 0;
+    outline: 0;
+}
+
+fieldset legend{
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(183, 255, 0);
+    margin: 25px 10px 25px -10px;
+}
+
+#field1 input, #field2 input{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(172, 167, 160);
+    transition: all .3s ease-in-out;
+    height: 40px;
+}
+
+#field1 input:focus, #field2 input:focus, #field2 textarea:focus{
+    background-color: white;
+    border: 0;
+    outline: 0;
+}
+
+
+
+#field2 textarea{
+    width: 100%;
+    height: 100px; 
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(172, 167, 160);
+    transition: all .2s ease-in-out;
+}
+
+/*BOUTTON ENVOYER*/
+.send{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.send input{
+    
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    background: #22232A;
+    border-radius: 5px;
+    color: white;
+    transition: all .2s ease-in-out;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    
+}
+
+.send input:hover{
+    background-color: rgb(18, 48, 87);
+}
+
+/*DEJA AVOIR UN COMPTE*/
+.have_account{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #fdfdfd;
+}
+
+.have_account a{
+    color: rgb(238, 255, 0);
+}
+
+@media screen and (max-width: 1200px) {
+    .inscri{
+        margin: 20px;
+    }
+    .inscri1{
+        margin: 20px;
+    }
+    
+}
